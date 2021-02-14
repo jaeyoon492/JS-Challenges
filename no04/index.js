@@ -1,12 +1,9 @@
 const select = document.querySelector("select");
-const option = select.querySelector("option");
 const COUNTRY = "country";
 
 function saveCountryHandler() {
   localStorage.setItem(COUNTRY, select.value);
 }
-
-select.addEventListener("change", saveCountryHandler);
 
 function loadCountry() {
   const currentCountry = localStorage.getItem(COUNTRY);
@@ -15,5 +12,6 @@ function loadCountry() {
 
 function init() {
   loadCountry();
+  select.addEventListener("change", saveCountryHandler);
 }
 init();
