@@ -7,7 +7,9 @@ function saveCountryHandler() {
 
 function loadCountry() {
   const currentCountry = localStorage.getItem(COUNTRY);
-  select.value = currentCountry;
+  if (currentCountry !== null) {
+    select.value = currentCountry;
+  }
 }
 
 function init() {
