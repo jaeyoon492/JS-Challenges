@@ -1,7 +1,3 @@
-// <⚠️ DONT DELETE THIS ⚠️>
-import "./styles.css";
-// <⚠️ /DONT DELETE THIS ⚠️>
-
 const toDoForm = document.querySelector(".js-Tasks");
 const toDoInput = toDoForm.querySelector("input");
 const PendingList = document.querySelector(".js-PendingList");
