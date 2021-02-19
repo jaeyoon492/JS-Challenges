@@ -1,3 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
 body {
-  font-family: sans-serif;
+  font-family: "Rubik", sans-serif;
+  background-color: black;
+  font-size: 23px;
+}
+
+.main-frame {
+  width: 660px;
+}
+
+.Bar {
+  display: flex;
+}
+
+.numbtn,
+.calbtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  height: 64px;
+  margin: 4px;
+  border-radius: 15px;
+  cursor: pointer;
+  background-color: #363439;
+  color: white;
+}
+
+.numbtn:active,
+.calbtn:active {
+  opacity: 0.5;
+}
+
+.printnum {
+  margin: 4px;
+  width: 76%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 40px;
+  color: #e4e4e5;
+}
+
+.zerobtn {
+  width: 51%;
+}
+
+.calbtn {
+  background-color: #fe8e00;
+  color: #e4e4e5;
+}
+
+.resetbtn {
+  background-color: #a7aab1;
+  color: #e4e4e5;
+}
+
+.equalbtn {
+  background-color: #363439;
+  color: #e4e4e5;
 }

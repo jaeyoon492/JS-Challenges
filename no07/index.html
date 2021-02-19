@@ -3,35 +3,38 @@
   <head>
     <title>Parcel Sandbox</title>
     <meta charset="UTF-8" />
+    <link rel="stylesheet" href="src/styles.css" />
   </head>
 
   <body>
-    <div class="firstBar">
-      <div id="printNum">0</div>
-      <button id="resetBtn">C</button>
-    </div>
-    <div class="secondBar">
-      <button id="7">7</button>
-      <button id="8">8</button>
-      <button id="9">9</button>
-      <button id="+">+</button>
-    </div>
-    <div class="thirdBar">
-      <button id="4">4</button>
-      <button id="5">5</button>
-      <button id="6">6</button>
-      <button id="-">-</button>
-    </div>
-    <div class="fourthBar">
-      <button id="1">1</button>
-      <button id="2">2</button>
-      <button id="3">3</button>
-      <button id="*">*</button>
-    </div>
-    <div class="fifthBar">
-      <button id="0">0</button>
-      <button id="=">=</button>
-      <button id="/">/</button>
+    <div class="main-frame">
+      <div class="Bar print-bar">
+        <div class="printnum js-printNum">0</div>
+        <div class="calbtn resetbtn js-resetBtn">C</div>
+      </div>
+      <div class="Bar">
+        <div class="numbtn js-numBtn">7</div>
+        <div class="numbtn js-numBtn">8</div>
+        <div class="numbtn js-numBtn">9</div>
+        <div class="calbtn js-calBtn">+</div>
+      </div>
+      <div class="Bar">
+        <div class="numbtn js-numBtn">4</div>
+        <div class="numbtn js-numBtn">5</div>
+        <div class="numbtn js-numBtn">6</div>
+        <div class="calbtn js-calBtn">-</div>
+      </div>
+      <div class="Bar">
+        <div class="numbtn js-numBtn">1</div>
+        <div class="numbtn js-numBtn">2</div>
+        <div class="numbtn js-numBtn">3</div>
+        <div class="calbtn js-calBtn">*</div>
+      </div>
+      <div class="Bar">
+        <div class="numbtn zerobtn js-numBtn">0</div>
+        <div class="calbtn equalbtn js-equalBtn">=</div>
+        <div class="calbtn js-calBtn">/</div>
+      </div>
     </div>
     <script src="src/index.js"></script>
   </body>
